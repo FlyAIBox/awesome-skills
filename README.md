@@ -8,6 +8,7 @@
 
 - [Skill 评估](#skill-评估)
 - [AI 资讯](#ai-资讯)
+- [科研](#科研)
 - [编程与 Agent 工作流](#编程与-agent-工作流)
 - [办公提效与演示](#办公提效与演示)
 - [写作](#写作)
@@ -29,6 +30,13 @@
 | 项目 | 类型 | 使用场景 | 解决的问题 | 亮点 / 适合谁 |
 | --- | --- | --- | --- | --- |
 | [zarazhangrui/follow-builders](https://github.com/zarazhangrui/follow-builders) | AI Native 信息聚合 Skill | 跟踪 AI Builder 在 X 和 YouTube 播客中的新观点，生成可读摘要 | 信息源过多、噪声高，逐个账号和长播客跟进成本大 | 强调“Follow builders, not influencers”，把一手内容重组为 digest；适合 AI 从业者、产品经理和独立开发者 |
+
+## 科研
+
+| 项目 | 类型 | 使用场景 | 解决的问题 | 亮点 / 适合谁 |
+| --- | --- | --- | --- | --- |
+| [joshzyj/open-scholar-skill](https://github.com/joshzyj/open-scholar-skill/blob/main/README.zh-CN.md) | 学术研究与论文写作 Skills 套件 | 社会科学选题、文献综述、研究设计、数据分析、论文写作、引文核验、投稿与审稿回复 | 学术研究流程长且工具分散，AI 辅助写作又容易产生虚假引文、统计结果与正文不一致等风险 | 提供 34 个模块化能力，覆盖从研究问题到可复现稿件的完整流程；强调人在回路、引文核验、研究伦理和敏感数据保护，适合社会科学研究者 |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 综合科研 Agent Skills 库 | 生物、化学、医学、药物研发等领域的数据库检索、分析、实验与科研工作流 | 科研 Agent 需要大量领域知识、专业数据库和专用工具，逐个接入和编写 Skill 成本高 | 原名 `claude-scientific-skills`，包含大量可直接使用的科研 Skills 与科学数据库接口，兼容 Claude Code、Codex、Cursor 等 Agent；这是 K-Dense-AI 维护的第三方项目，并非 Anthropic 官方 Skill |
 
 ## 编程与 Agent 工作流
 
@@ -81,6 +89,8 @@
 | --- | --- |
 | 评估一个 Skill 到底有没有用 | SkillsBench |
 | 从零建立 Agent 评测知识体系 | awesome-evals |
+| 做社会科学研究与论文投稿 | open-scholar-skill |
+| 搭建生物、化学、医学和药物研发 Agent | scientific-agent-skills |
 | 改善日常 AI 编程质量 | mattpocock/skills、superpowers |
 | 研究复杂项目的多 Agent 编排 | oh-my-openagent、lazycodex |
 | 给创业团队搭建端到端交付流程 | gstack |
