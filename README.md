@@ -10,6 +10,7 @@
 - [AI 资讯](#ai-资讯)
 - [科研](#科研)
 - [编程与 Agent 工作流](#编程与-agent-工作流)
+- [产品管理](#产品管理)
 - [办公提效与演示](#办公提效与演示)
 - [写作](#写作)
 - [图表与可视化](#图表与可视化)
@@ -49,6 +50,12 @@
 | [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) | 多 Agent 编排 / Agent Harness | 在 OpenCode、Codex 等环境中处理大型或复杂代码库 | 单 Agent 容易上下文过载，研究、实现和验证缺少专业分工 | 原 `oh-my-opencode`，现更名为 `oh-my-openagent`；偏向多模型、多 Agent 编排，适合重度 Agent 用户 |
 | [garrytan/gstack](https://github.com/garrytan/gstack) | 角色化开发工作流 | 用一套命令覆盖产品、设计、工程管理、发布、文档和 QA | 只让 Agent 扮演程序员，容易遗漏产品判断、交互检查和发布准备 | 将 CEO、Designer、Eng Manager、Release Manager、Doc Engineer、QA 等角色沉淀为一组强观点工具；适合创业团队和全栈开发者 |
 | [code-yeongyu/lazycodex](https://github.com/code-yeongyu/lazycodex) | Codex Agent Harness | 在复杂代码库中进行长期任务、规划执行和完成验证 | 会话间知识丢失、计划与执行脱节、Agent 过早宣布完成 | 围绕项目记忆、规划、执行与 verified completion 设计；适合 Codex 用户研究持久上下文和闭环交付 |
+
+## 产品管理
+
+| 项目 | 类型 | 使用场景 | 解决的问题 | 亮点 / 适合谁 |
+| --- | --- | --- | --- | --- |
+| [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | 产品管理 Skills Marketplace | 产品发现、战略、PRD、OKR、路线图、用户研究、数据分析、GTM、增长和 AI 应用交付 | 通用 Agent 能写文档，但缺少产品框架、工作流串联和从发现到上线的结构化判断 | 覆盖 9 个 PM 插件、68 个技能和 42 个链式工作流，兼容 Claude Code、Cowork、Codex、Cursor 等工具；适合产品经理、创始人和需要把 PM 方法沉淀进 Agent 工作流的团队 |
 
 ## 办公提效与演示
 
@@ -94,6 +101,7 @@
 | 改善日常 AI 编程质量 | mattpocock/skills、superpowers |
 | 研究复杂项目的多 Agent 编排 | oh-my-openagent、lazycodex |
 | 给创业团队搭建端到端交付流程 | gstack |
+| 建立产品管理与增长工作流 | pm-skills |
 | 阅读、提炼、写作和内容视觉化 | ljg-skills、baoyu-skills |
 | 做商业长文 | liurun-bookwriter-skills |
 | 做架构讲解和动态图表 | lanshu-animated-architecture-diagram |
