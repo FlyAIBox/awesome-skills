@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <!-- 16:9 Chinese article illustration · Ian xiaohei style · pure white bg -->
+  <rect width="1600" height="900" fill="#ffffff"/>
+
+  <defs>
+    <style>
+      .ink { stroke:#141414; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+      .ink-thin { stroke:#141414; stroke-width:2.2; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+      .red { stroke:#d0342c; stroke-width:3; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+      .zh { font-family:"Kaiti SC","KaiTi","STKaiti","AR PL UKai CN","Noto Serif CJK SC","Noto Sans CJK SC",cursive; }
+    </style>
+  </defs>
+
+  <!-- ground: wobbly light line -->
+  <path class="ink-thin" d="M455,703 Q560,699 660,702 Q790,706 900,701 Q1030,697 1140,702 Q1260,706 1365,701" opacity="0.55"/>
+
+  <!-- ===== mailbox (已完成) ===== -->
+  <!-- body with arched top, slightly wobbly -->
+  <path class="ink" d="M505,642 L503,470 Q502,432 522,414 Q550,388 592,386 Q636,385 662,412 Q681,430 680,468 L682,640 Q640,648 592,645 Q548,649 505,642 Z"/>
+  <!-- seam line under arch -->
+  <path class="ink-thin" d="M508,472 Q590,464 678,470"/>
+  <!-- thin legs -->
+  <path class="ink" d="M534,645 Q531,672 533,700"/>
+  <path class="ink" d="M650,644 Q652,673 649,700"/>
+  <!-- tiny feet -->
+  <path class="ink-thin" d="M522,700 L546,701"/>
+  <path class="ink-thin" d="M638,701 L662,700"/>
+  <!-- slot on the right face (slit) -->
+  <path class="ink" d="M655,506 Q671,502 689,505 Q690,513 688,518 Q670,522 654,518 Q652,511 655,506 Z" fill="#141414"/>
+  <!-- label on body -->
+  <text class="zh" x="592" y="568" font-size="44" text-anchor="middle" fill="#141414">已完成</text>
+
+  <!-- ===== papers being stuffed in, ink still wet ===== -->
+  <!-- sheet halfway inside slot -->
+  <g transform="rotate(-14 760 520)">
+    <path class="ink-thin" d="M700,505 L802,498 Q806,522 803,540 L702,547 Q698,524 700,505 Z"/>
+    <path class="ink-thin" d="M714,514 L780,510" opacity="0.8"/>
+    <path class="ink-thin" d="M714,526 L788,521" opacity="0.8"/>
+    <path class="ink-thin" d="M714,537 L768,533" opacity="0.8"/>
+  </g>
+  <!-- second sheet behind, offset -->
+  <g transform="rotate(-9 780 545)">
+    <path class="ink-thin" d="M726,528 L824,522 Q828,545 825,562 L728,568 Q724,547 726,528 Z" opacity="0.9"/>
+    <path class="ink-thin" d="M740,540 L804,535" opacity="0.7"/>
+    <path class="ink-thin" d="M740,552 L792,548" opacity="0.7"/>
+  </g>
+  <!-- wet ink drips falling from the papers -->
+  <path class="ink-thin" d="M742,572 Q740,584 742,592 Q748,598 752,591 Q754,583 748,574 Z" fill="#141414"/>
+  <path class="ink-thin" d="M782,580 Q780,594 783,604 Q789,610 793,602 Q795,592 788,582 Z" fill="#141414"/>
+  <path class="ink-thin" d="M812,570 Q811,579 813,585 Q817,590 820,584 Q821,577 816,571 Z" fill="#141414"/>
+
+  <!-- ===== 小黑: solid black, white dot eyes, thin legs, deadpan ===== -->
+  <!-- body: slightly uneven blob -->
+  <path d="M842,560 Q878,552 902,572 Q922,590 920,628 Q919,660 898,672 Q872,682 848,674 Q824,664 822,630 Q820,592 842,560 Z"
+        fill="#141414" stroke="#141414" stroke-width="3"/>
+  <!-- white dot eyes, blank serious -->
+  <circle cx="856" cy="596" r="6.5" fill="#ffffff"/>
+  <circle cx="886" cy="594" r="6.5" fill="#ffffff"/>
+  <!-- thin arms reaching to push the papers -->
+  <path class="ink" d="M834,588 Q800,568 776,548"/>
+  <path class="ink" d="M830,618 Q792,600 762,572"/>
+  <!-- thin legs -->
+  <path class="ink" d="M852,676 Q849,689 851,701"/>
+  <path class="ink" d="M886,675 Q889,689 887,701"/>
+  <!-- tiny feet -->
+  <path class="ink-thin" d="M842,701 L862,702"/>
+  <path class="ink-thin" d="M878,702 L898,701"/>
+
+  <!-- speech: 搞定了？ in red, tiny dash to head -->
+  <text class="zh" x="905" y="512" font-size="40" fill="#d0342c">搞定了？</text>
+  <path class="red" d="M912,524 Q902,538 894,550" stroke-width="2.2"/>
+
+  <!-- ===== sealed, untouched box (测试) ===== -->
+  <!-- box body -->
+  <path class="ink" d="M1128,568 L1318,562 Q1324,626 1320,688 L1132,693 Q1124,630 1128,568 Z"/>
+  <!-- top flaps line -->
+  <path class="ink-thin" d="M1130,594 Q1222,588 1317,588"/>
+  <!-- tape cross on top band -->
+  <path class="ink-thin" d="M1196,564 Q1200,577 1198,590"/>
+  <path class="ink-thin" d="M1252,563 Q1249,576 1251,589"/>
+  <path class="ink-thin" d="M1196,576 L1252,574"/>
+  <!-- label -->
+  <text class="zh" x="1224" y="656" font-size="44" text-anchor="middle" fill="#141414">测试</text>
+  <!-- little dust marks: untouched for a long time -->
+  <path class="ink-thin" d="M1108,548 Q1112,544 1116,548" opacity="0.6"/>
+  <path class="ink-thin" d="M1336,552 Q1340,548 1344,552" opacity="0.6"/>
+  <path class="ink-thin" d="M1122,536 Q1126,532 1130,536" opacity="0.5"/>
+
+  <!-- red hand-drawn exclamation above the box -->
+  <path class="red" d="M1228,470 Q1231,486 1229,502" stroke-width="5"/>
+  <circle cx="1229" cy="516" r="4.5" fill="#d0342c" stroke="none"/>
+  <!-- red warnings -->
+  <text class="zh" x="1252" y="502" font-size="34" fill="#d0342c">测试没跑</text>
+  <text class="zh" x="1150" y="752" font-size="32" fill="#d0342c">边界没查</text>
+  <path class="red" d="M1288,720 Q1300,708 1308,698" stroke-width="2.2"/>
+</svg>
